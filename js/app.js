@@ -28,9 +28,3 @@ const renderBoxes = () => {
     boxesContainer.innerHTML = makeBoxes().join('');
 };
 
-//console.log("Boxlista: ", document.querySelectorAll(".box"))
-
-document.addEventListener("DOMContentLoaded", () =>{
-    renderBoxes()
-    console.log("Boxlista: ", document.querySelectorAll(".box"))
-});
